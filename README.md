@@ -18,9 +18,9 @@ I decided to open source this as CSGO is coming to a close soon, and figured ope
 
 - `sm_tdrank` - Prints your current defender rank
 - `sm_tdfind [rank|name]` - Prints the defender stats of a player
-
+ 
 ## ConVars
 
-- `sm_topdefender_dmgmin` - Minimum amount of damage needed to be displayed (Def. 5000)
-- `sm_topdefender_mindmgreceived` - Minimum amount of damage taken needed to be displayed (Def. 10000)
-- `sm_topdefender_rate` - Float. How often top defender ranking is updated
+- `sm_topdefender_dmgmin` - Minimum amount of damage needed to be displayed (Integer, Def. 5000)
+- `sm_topdefender_mindmgreceived` - Minimum amount of damage taken needed to be displayed (Integer, Def. 10000)
+- `sm_topdefender_rate` - How often top defender ranking is updated (Float, Def. 10.0)
